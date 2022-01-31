@@ -178,20 +178,12 @@ p {
   color: var(--primary-color);
 }
 
-.fas {
-  font-size: 100px;
-  margin-right: 50px;
-  cursor: pointer;
-  color: var(--primary-color);
-}
+
 
 .fab:hover {
   color: var(--on-background);
 }
 
-.fas:hover {
-  color: var(--on-background);
-}
 /* Dark Mode Toggle */
 .theme-switch-wrapper {
   display: flex;
@@ -263,7 +255,7 @@ input:checked + .slider::before {
   border-radius: 50%;
 }
 
-/* .fas {
+.fas {
   font-size: 30px;
   margin-right: 5px;
-} */
+} 
